@@ -1,3 +1,111 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body,
+html {
+  position: relative;
+  color: #cccccc;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 100%;
+  height: auto;
+   margin: auto;
+  background-color: #404040;
+   text-align: center;
+}
+img{
+  max-width:100%;
+  max-height:100%;
+  overflow: hidden;
+}
+
+
+
+
+dd {
+   text-align: center;
+  margin: auto;
+   padding-left: 30%;
+   padding-right: 30%;
+  font-size: 14px;
+}
+
+dt{
+  text-align: center;
+  margin: auto;
+}
+
+p {
+   text-align: center;
+   padding-left: 20%;
+   padding-right: 20%;
+  font-size: 16px
+}
+
+.p-footer{
+  padding-top: 2px;
+  padding-bottom: 6px;
+  text-align: center;
+  margin: auto;
+  font-size: 14px
+}
+
+dt{
+  text-align: center;
+  margin: auto;
+
+  font-size: 20px;
+
+}
+
+.quote {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 30%;
+   padding-right: 30%;
+  font-style: italic;
+}
+
+.header-adjustment {
+  margin: 0 auto;
+  text-align: center;
+  img-align: center;
+  padding-top: 32px;
+  max-width: 640px;
+  width: 95%;
+}
+.body-adjustment {
+  margin: auto;
+  text-align: center;
+  padding-top: 16px;
+  max-width: 340px;
+  width: 90%;
+  background-color: #262626;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #b3b3b3;
+  background-color: #1a1a1a;
+  text-align: center;
+  margin: auto;
+}
+
+.blog-stripe{
+  width: 60%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  height: 90%;
+  position: relative;
+  overflow: visible;
+  border-radius: 30px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color:#262626
+}
