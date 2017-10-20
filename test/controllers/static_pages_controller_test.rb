@@ -4,6 +4,13 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @base_title = "Lorem Ipsum" #example of variable use in test
+    @title = "Showcase App"
+  end
+
+  test "should get root"do
+    get root_url
+    assert_response :success
+    assert_select "title", "#{@title}"
   end
 
   test "should get home" do

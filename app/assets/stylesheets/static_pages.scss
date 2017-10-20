@@ -20,6 +20,8 @@ img{
 
 
 
+
+
 dd {
    text-align: center;
   margin: auto;
@@ -81,25 +83,28 @@ dt{
   background-color: #262626;
 }
 
+
 .footer {
-  position: relative;
-  right: 0;
+  position: fixed;
+  width:100%;
   bottom: 0;
-  left: 0;
   padding-top: 4px;
   padding-bottom: 4px;
   color: #b3b3b3;
   background-color: #1a1a1a;
   text-align: center;
-  margin: auto;
+}
+
+.footer-padding{
+  padding-top: 5%;
 }
 
 .blog-stripe{
   width: 60%;
   padding-right: 1%;
   padding-bottom: 1%;
-  height: 90%;
-  position: relative;
+  height: 95%;
+  position: static;
   overflow: visible;
   border-radius: 30px;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
